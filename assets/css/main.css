@@ -1826,6 +1826,7 @@ input, select, textarea {
 			margin-top: -0.75em;
 		}
 
+
 /* Form */
 
 	form {
@@ -2850,7 +2851,6 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		background: #04005E;
 		padding-left: 15em;
 	}
 
@@ -2861,6 +2861,7 @@ input, select, textarea {
 	}
 
 		#main > section > .container {
+			background: #04005E;
 			padding: 6em 0 4em 0;
 		}
 
