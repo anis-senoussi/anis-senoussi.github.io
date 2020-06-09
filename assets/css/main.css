@@ -1,6 +1,8 @@
 @import url("fontawesome-all.min.css");
+@import url('fontawesome.min.css');
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700,300i,600i,700i|Raleway:600,800");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap");
 
 /*
 	Read Only by HTML5 UP
@@ -84,7 +86,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		background: #04005E;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -99,8 +101,8 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #000000;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		color: #ffffff;
+		font-family: "Inconsolata", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -111,18 +113,35 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: solid 1px #440BD4;
+		border-bottom: solid 1px #FF2079;
 		color: inherit;
 		text-decoration: none;
 	}
 
+	a.hyperef_logo {
+		text-decoration: none;
+		border-bottom: none;
+	}
+
+
 		a:hover {
 			border-bottom-color: transparent;
-			color: #04005E !important;
+			color: #ffffff !important;
+		}
+
+		a.hyperef_logo:hover {
+			border-bottom-color: transparent;
+			color: #FF2079 !important;
+		}
+
+		a.hyperef_link:hover {
+			border-bottom-color: transparent;
+			background-color: #FF2079;
+			color: #ffffff !important;
 		}
 
 	strong, b {
-		color: #04005E;
+		color: #6BE7E5;
 		font-weight: 700;
 	}
 
@@ -134,17 +153,26 @@ input, select, textarea {
 		margin: 0 0 2.25em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
-		color: #440BD4;
-		font-family: "Raleway", Helvetica, sans-serif;
+	h1, h2 {
+		color: #E32A59;
+		font-family: "Inconsolata", Helvetica, sans-serif;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
 	}
 
+	h3, h4, h5, h6 {
+		color: #6BE7E5;
+		font-family: "Inconsolata", Helvetica, sans-serif;
+		font-weight: 700;
+		line-height: 1em;
+		margin: 0 0 0.5625em 0;
+	}
+
+
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			border: 0;
-			color: inherit;
+			color: #E32A59;
 			text-decoration: none;
 		}
 
@@ -1711,7 +1739,7 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 4.5em);
-		width: 45em;
+		width: 75em;
 	}
 
 		.container.xsmall {
@@ -1757,7 +1785,7 @@ input, select, textarea {
 /* Section/Article */
 
 	section.special, article.special {
-		text-align: center;
+		text-align: left;
 	}
 
 	header p {
@@ -2051,10 +2079,11 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 5px;
+		border-radius: 10px;
 		border: 0;
 		display: inline-block;
 		position: relative;
+
 	}
 
 		.image[data-position] img {
@@ -2192,6 +2221,7 @@ input, select, textarea {
 		.image.avatar {
 			border-radius: 100%;
 			overflow: hidden;
+			border-color:#FF0000
 		}
 
 			.image.avatar img {
@@ -2620,7 +2650,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #4acaa8;
+			background-color: #04005E;
 			color: #ffffff !important;
 		}
 
@@ -2628,7 +2658,7 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #5ed0b1;
+				background-color: #FF2079;
 			}
 
 			input[type="submit"].primary:active,
@@ -2655,7 +2685,7 @@ input, select, textarea {
 /* Features */
 
 	.features article {
-		border-top: solid 3px #f4f4f4;
+		border-top: solid 3px #04005E;
 		margin-bottom: 2.25em;
 		padding-top: 2.25em;
 	}
@@ -2703,13 +2733,13 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background: #04005E;
-		color: #fff;
+		color: #ffffff;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
-		text-align: center;
+		text-align: left;
 		top: 0;
-		width: 20em;
+		width: 15em;
 		left: 0;
 	}
 
@@ -2730,7 +2760,8 @@ input, select, textarea {
 		}
 
 			#header a:hover {
-				color: #ffffff !important;
+				border-bottom-color: transparent;
+				color: #FF2079 !important;
 			}
 
 		#header > header {
@@ -2785,12 +2816,12 @@ input, select, textarea {
 
 			#header > nav ul {
 				list-style: none;
-				margin: 0;
+				margin: 2em;
 				padding: 0;
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #ffffff;
+					/*border-top: solid 2px #ffffff; */
 					display: block;
 					padding: 0;
 				}
@@ -2808,8 +2839,8 @@ input, select, textarea {
 					}
 
 						#header > nav ul li a.active {
-							background: #fff;
-							color: #000000 !important;
+							/*background: #fff;*/
+							color: #E32A59 !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -2819,14 +2850,14 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		background: #fff;
-		padding-left: 20em;
+		background: #04005E;
+		padding-left: 15em;
 	}
 
 /* Main */
 
 	#main > section {
-		border-top: solid 6px #f4f4f4;
+		border-top: solid 6px #ffffff;
 	}
 
 		#main > section > .container {
@@ -2840,11 +2871,11 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #ffffff;
+		background: #04005E;
 		border-top: 0;
-		color: #000;
+		color: #ffffff;
 		overflow: hidden;
-		padding: 4em 0 2em 0;
+		padding: 4em 0 0em 0;
 	}
 
 		#footer .copyright {
@@ -2871,6 +2902,7 @@ input, select, textarea {
 					color: inherit;
 				}
 
+
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
@@ -2884,7 +2916,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 20em;
+				width: 15em;
 			}
 
 				#header > header {
@@ -2898,7 +2930,7 @@ input, select, textarea {
 		/* Wrapper */
 
 			#wrapper {
-				padding-left: 20em;
+				padding-left: 15em;
 			}
 
 		/* Main */
@@ -2924,13 +2956,13 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 20em;
+				width: 15em;
 			}
 
 		/* Wrapper */
 
 			#wrapper {
-				padding-left: 20em;
+				padding-left: 15em;
 			}
 
 	}
@@ -2985,12 +3017,12 @@ input, select, textarea {
 				overflow-y: auto;
 				position: fixed;
 				top: 0;
-				width: 20em;
+				width: 15em;
 				z-index: 10002;
-				-moz-transform: translateX(-20em);
-				-webkit-transform: translateX(-20em);
-				-ms-transform: translateX(-20em);
-				transform: translateX(-20em);
+				-moz-transform: translateX(-15em);
+				-webkit-transform: translateX(-15em);
+				-ms-transform: translateX(-15em);
+				transform: translateX(-15em);
 				right: 0;
 			}
 
@@ -3076,14 +3108,15 @@ input, select, textarea {
 						text-rendering: auto;
 						line-height: 1;
 						text-transform: none !important;
-						font-family: "Raleway", Helvetica, sans-serif;
+						font-family: "Inconsolata", Helvetica, sans-serif;
 						font-weight: 900;
 					}
 
 					#titleBar .toggle:before {
+						font-family: FontAwesome;
 						background: #04005E;
 						color: #ffffff;
-						content: "\f0c9";
+						content: '\f0c9';
 						display: block;
 						font-size: 18px;
 						height: 44px;
@@ -3096,10 +3129,10 @@ input, select, textarea {
 					}
 
 			body.header-visible #wrapper, body.header-visible #titleBar {
-				-moz-transform: translateX(20em);
-				-webkit-transform: translateX(20em);
-				-ms-transform: translateX(20em);
-				transform: translateX(20em);
+				-moz-transform: translateX(15em);
+				-webkit-transform: translateX(15em);
+				-ms-transform: translateX(15em);
+				transform: translateX(15em);
 			}
 
 			body.header-visible #header {
@@ -3182,11 +3215,11 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 20em;
-				-moz-transform: translateX(-20em);
-				-webkit-transform: translateX(-20em);
-				-ms-transform: translateX(-20em);
-				transform: translateX(-20em);
+				width: 15em;
+				-moz-transform: translateX(-15em);
+				-webkit-transform: translateX(-15em);
+				-ms-transform: translateX(-15em);
+				transform: translateX(-15em);
 				right: 0;
 			}
 
@@ -3220,7 +3253,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				text-align: center;
+				text-align: left;
 			}
 
 				#footer .copyright li {
@@ -3248,10 +3281,10 @@ input, select, textarea {
 				}
 
 			body.header-visible #wrapper, body.header-visible #titleBar {
-				-moz-transform: translateX(20em);
-				-webkit-transform: translateX(20em);
-				-ms-transform: translateX(20em);
-				transform: translateX(20em);
+				-moz-transform: translateX(15em);
+				-webkit-transform: translateX(15em);
+				-ms-transform: translateX(15em);
+				transform: translateX(15em);
 			}
 
 	}
