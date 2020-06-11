@@ -4,11 +4,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700,300i,600i,700i|Raleway:600,800");
 @import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap");
 
-/*
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -139,6 +134,20 @@ input, select, textarea {
 			background-color: #FF2079;
 			color: #ffffff !important;
 		}
+
+
+		a.hyperef_article {
+			text-decoration: none;
+			border-bottom: none;
+			color: #6BE7E5
+		}
+
+		a.hyperef_article:hover {
+			border-bottom-color: transparent;
+			background-color: #6BE7E5;
+			color: #ffffff !important;
+		}
+
 
 	strong, b {
 		color: #6BE7E5;
@@ -2086,8 +2095,38 @@ input, select, textarea {
 		border: solid;
 		border-width: 0.25em;
 		border-color:#6BE7E5;
-
 	}
+
+	/* Hover on Parent Container */
+	.image:hover{
+	 cursor: pointer;
+	 border-color:#ffffff;
+	}
+
+	.image div{
+		position: absolute;
+		display: flex;
+  	justify-content: center;
+  	align-items: center;
+		padding: 1em;
+		background: #6BE7E5;
+		color: #04005E;
+		font-size: 1.25em;
+		font-family: "Inconsolata", Helvetica, sans-serif;
+		opacity: 0;
+		visibility: hidden;
+		-webkit-transition: visibility 0s, opacity 0.5s ease;
+		transition: visibility 0s, opacity 0.5s ease;
+	}
+
+	.image:hover div{
+		width: 100%;
+		height: 100%;
+		visibility: visible;
+		opacity: 0.7;
+	}
+
+
 
 		.image[data-position] img {
 			-moz-object-fit: cover;
@@ -2194,7 +2233,7 @@ input, select, textarea {
 		}
 
 		.image img {
-			border-radius: 5px;
+			border-radius: 0px;
 			display: block;
 
 		}
@@ -2716,7 +2755,7 @@ input, select, textarea {
 			display: inline-block;
 			padding-right: 0em;
 			vertical-align: middle;
-			width: 35%;
+			width: 45%;
 		}
 
 			.features article .image img {
@@ -2726,7 +2765,7 @@ input, select, textarea {
 
 		.features article .inner {
 			display: inline-block;
-			vertical-align: middle;
+			vertical-align: top;
 			margin-left: 0.5em;
 			width: 50%;
 		}
