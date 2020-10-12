@@ -3164,16 +3164,16 @@ input, select, textarea {
 				width: 100%;
 				z-index: 10001;
 				background: #04005E;
-				color: #04005E;
+				color: #ffffff;
 				min-width: 320px;
 
-		  	background-color: #ffffff;
+		  	background-color: #04005E;
 		  	background-position: 0 0, 0px 0px;
 		  	background-size: 10px 10px;
 			}
 
 				#titleBar .title {
-					color: #04005E;
+					color: #ffffff;
 					display: block;
 					font-weight: 700;
 					height: 44px;
