@@ -1,5 +1,4 @@
-@import url("fontawesome-all.min.css");
-@import url('fontawesome.min.css');
+
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700,300i,600i,700i|Raleway:600,800");
 @import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap");
@@ -2941,7 +2940,7 @@ input, select, textarea {
 
 	#wrapper {
 		padding-left: 15em;
-		padding-top: 10em;
+		padding-top: 2.5em;
 	}
 
 /* Main */
@@ -2981,7 +2980,7 @@ input, select, textarea {
 			#footer .copyright li {
 				border-left: solid 1px #ffffff;
 				display: inline-block;
-				font-size: 0.8em;
+				font-size: 0.6em;
 				margin-left: 1em;
 				padding-left: 1em;
 			}
