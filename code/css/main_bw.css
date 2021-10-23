@@ -2265,14 +2265,14 @@ input, select, textarea {
 			.image.fit img {
 				display: block;
 				border: 5em;
-				border-color: #6BE7E5;
+				border-color: #04005E;
 				width: 100%;
 			}
 
 		.image.avatar {
 			border: solid;
 			border-width: 0.25em;
-			border-color:#6BE7E5;
+			border-color:#04005E;
 			border-radius: 100%;
 			overflow: hidden;
 			width: 35%
@@ -2299,7 +2299,7 @@ input, select, textarea {
 			border: solid;
 			border-radius: 0px;
 			border-width: 0.25em;
-			border-color:#6BE7E5;
+			border-color:#04005E;
 			overflow: hidden;
 			width: 80%;
 			margin-bottom: 2em;
