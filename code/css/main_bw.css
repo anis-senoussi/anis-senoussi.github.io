@@ -3162,11 +3162,11 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #04005E;
+				background: #000000;
 				color: #ffffff;
 				min-width: 320px;
 
-		  	background-color: #04005E;
+		  	background-color: #000000;
 		  	background-position: 0 0, 0px 0px;
 		  	background-size: 10px 10px;
 			}
@@ -3226,7 +3226,7 @@ input, select, textarea {
 						top: 0;
 						width: 64px;
 						left: 0;
-				  	background-color: #04005E;
+				  	background-color: #000000;
 				  	background-position: 0 0, 0px 0px;
 				  	background-size: 10px 10px;
 					}
