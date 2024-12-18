@@ -177,6 +177,84 @@
                 transform: translateY(0);
             }
         }
+
+
+        /* General styles for responsive font sizes */
+body {
+    font-size: 16px; /* Default for larger screens */
+}
+
+h1 {
+    font-size: 2rem; /* Scales with body font size */
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+/* Adjust navigation for smaller screens */
+nav ul {
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Center them */
+    text-align: center;
+}
+
+nav li {
+    margin: 5px; /* Reduce space between items */
+}
+
+/* Responsive layout adjustments */
+@media screen and (max-width: 768px) {
+    body {
+        margin: 2em 5%;
+        font-size: 14px; /* Slightly smaller font size */
+    }
+
+    nav ul {
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    nav li {
+        margin-bottom: 10px; /* Add spacing between items */
+    }
+
+    h1 {
+        font-size: 1.8rem; /* Reduce size for smaller screens */
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    .grid > div {
+        flex: 1 1 100%; /* Full width on small screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 12px; /* Even smaller font size for very small screens */
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    nav li {
+        margin-bottom: 8px;
+    }
+}
+
+
+
     </style>
 </head>
 <body>
