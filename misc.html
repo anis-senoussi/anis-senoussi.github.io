@@ -2,284 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="Anis Senoussi misc projects">
-    <title>Misc projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Anis Senoussi — side room: things I do outside the lab.">
+    <title>Misc — Anis Senoussi</title>
 
-    <!-- Font from Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
-    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-
-    <style>
-        body {
-            font-family: 'Space Mono', monospace;
-            font-size: 16px;
-            line-height: 1.6;
-            background: #ffffff; /* White background */
-            color: #000000;
-            margin: 5em 10%;
-            text-align: left;
-            max-width: 1100px;
-            cursor: default; /* Default cursor */
-        }
-
-        h1 {
-            font-size: 32px;
-            margin-bottom: 0.5em;
-            text-align: center;
-            font-weight: 700;
-        }
-
-        h2 {
-            font-size: 24px;
-            margin-top: 3em;
-            margin-bottom: 0.5em;
-            animation: fadeInUp 1s ease;
-        }
-
-        h3 {
-        font-size: 18px;
-        margin-top: 0.5em;
-        margin-bottom: 0.0em;
-        font-weight: 600;
-        color: #333; /* Subtle color difference for subtitles */
-        }
-
-        p {
-            margin-bottom: 1em;
-        }
-
-        a {
-            color: #000000;
-            text-decoration: underline;
-            transition: color 0.3s ease, background-color 0.3s ease;
-        }
-
-        a:hover {
-            color: #ff0066;
-            background-color: #ddd;
-            text-decoration: none;
-        }
-
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0 0 3em;
-            display: flex;
-            justify-content: center;
-        }
-
-        nav li {
-            margin-right: 20px;
-        }
-
-        nav a {
-            text-decoration: underline;
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 2em;
-            border: 2px solid #333;
-            padding: 20px;
-            background-color: #ffffff; /* White background for header */
-            border-radius: 8px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-            color: #000;
-        }
-
-        header .title {
-            font-size: 24px;
-            margin-bottom: 0.2em;
-        }
-
-        header .description {
-            font-size: 18px;
-            color: #555;
-        }
-
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 1em 0;
-        }
-
-        table, th, td {
-            border: 1px solid #ddd;
-        }
-
-        th, td {
-            padding: 8px;
-            text-align: left;
-        }
-
-        .grid {
-        display: flex;
-        gap: 20px;
-        flex-wrap: wrap; /* Allows wrapping for smaller screens */
-    }
-
-    .grid > div {
-        flex: 1 1 calc(50% - 20px); /* Each grid item takes 50% of the width minus the gap */
-        border: 1px solid #ddd;
-        padding: 20px;
-        transition: background-color 0.3s ease, box-shadow 0.3s ease;
-        border-radius: 8px;
-        box-sizing: border-box; /* Ensures padding and borders are included in the width */
-    }
-
-    .grid > div:hover {
-        background-color: #f9f9f9; /* Subtle highlight on hover */
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adds a soft shadow on hover */
-    }
-
-    .grid-title {
-        font-size: 18px;
-        font-weight: bold;
-        margin-bottom: 10px;
-    }
-
-    .grid-description {
-        font-size: 14px;
-        color: #666;
-        margin-bottom: 15px;
-    }
-
-    .grid img {
-        width: 100%;
-        height: auto;
-        border-radius: 8px;
-        margin-bottom: 10px;
-    }
-
-        footer {
-            margin-top: 3em;
-            text-align: center;
-        }
-
-        pre {
-            background-color: #f4f4f4;
-            padding: 10px;
-            border: 1px solid #ccc;
-            white-space: pre-wrap;
-        }
-
-        /* Animations */
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-
-    /* General styles for responsive font sizes */
-body {
-    font-size: 16px; /* Default for larger screens */
-}
-
-h1 {
-    font-size: 2rem; /* Scales with body font size */
-}
-
-h2 {
-    font-size: 1.5rem;
-}
-
-h3 {
-    font-size: 1.2rem;
-}
-
-/* Adjust navigation for smaller screens */
-nav ul {
-    flex-wrap: wrap; /* Allow items to wrap */
-    justify-content: center; /* Center them */
-    text-align: center;
-}
-
-nav li {
-    margin: 5px; /* Reduce space between items */
-}
-
-/* Responsive layout adjustments */
-@media screen and (max-width: 768px) {
-    body {
-        margin: 2em 5%;
-        font-size: 14px; /* Slightly smaller font size */
-    }
-
-    nav ul {
-        flex-direction: column; /* Stack items vertically */
-    }
-
-    nav li {
-        margin-bottom: 10px; /* Add spacing between items */
-    }
-
-    h1 {
-        font-size: 1.8rem; /* Reduce size for smaller screens */
-    }
-
-    h2 {
-        font-size: 1.4rem;
-    }
-
-    .grid > div {
-        flex: 1 1 100%; /* Full width on small screens */
-    }
-}
-
-@media screen and (max-width: 480px) {
-    body {
-        font-size: 12px; /* Even smaller font size for very small screens */
-    }
-
-    h1 {
-        font-size: 1.5rem;
-    }
-
-    h2 {
-        font-size: 1.2rem;
-    }
-
-    nav li {
-        margin-bottom: 8px;
-    }
-}
-
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <noscript><style>.rise{opacity:1;transform:none}</style></noscript>
 </head>
 <body>
 
-    <header>
-        <div class="title">Anis Senoussi</div>
-        <div class="description">MSCA postdoctoral fellow</div>
-        <div class="description"> <a target="_blank" rel="noopener noreferrer" href="https://www.mdc-berlin.de/">Max Delbrück Center for Molecular Medicine</a></div>
-    </header>
+<header class="topbar shell">
+    <nav>
+        <a href="index.html#research">Research</a>, <a href="index.html#publications">Publications</a>,
+        <a href="index.html#bio">Bio</a>, <a href="index.html#contact">Contact</a>,
+        <a href="misc.html">Misc</a>
+    </nav>
+</header>
 
-    <i>In construction</i>
+<main class="shell" id="top">
 
+    <section class="hero">
+        <h1>Misc</h1>
+        <p class="standfirst">Things I do outside the lab</p>
+    </section>
 
+</main>
 
-    <footer id="contact">
-        <p>Contact: <i>anis.senoussi@mdc-berlin.de</i></p>
-        <p>
-            MDC Berlin, BIMSB<br>
-            Hannoversche Straße 28<br>
-            10115 <font color="FDB232">Berlin</font>, Germany
-        </p>
-        <p>
-            <!-- <a target="_blank" rel="noopener noreferrer" href="https://mastodon.social/@DrAnis"><span class="iconify" data-icon="simple-icons:mastodon" data-inline="false"></span></a> -->
-            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/anissenoussi/"><span class="iconify" data-icon="logos:linkedin-icon" data-inline="false"></span></a>
-            <!-- <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Dr_Anis_s"><span class="iconify" data-icon="icon-park:twitter" data-inline="false"></span></a> -->
-            <a target="_blank" rel="noopener noreferrer" href="https://bsky.app/profile/dr-anis.bsky.social"><span class="iconify" data-icon="mingcute:bluesky-social-fill" data-inline="false"></span></a>
-        </p>
-        <p style="font-size: 12px; color: #666;">Last update: December 2024</p>
-    </footer>
+<footer class="foot" id="contact">
+    <div class="foot-inner">
+        <p class="big"><a href="mailto:anis.senoussi@mdc-berlin.de">anis.senoussi@mdc-berlin.de</a></p>
+        <div class="foot-cols">
+            <div>
+                <p>MDC Berlin, BIMSB<br>Hannoversche Straße 28<br>10115 Berlin, Germany</p>
+            </div>
+            <div>
+                <h4>Elsewhere</h4>
+                <p class="socials">
+                    <a target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" href="https://www.linkedin.com/in/anissenoussi/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037c-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85c3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.06 2.06 0 0 1-2.063-2.065a2.064 2.064 0 1 1 2.063 2.065m1.782 13.019H3.555V9h3.564zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0z"/></svg></a>
+                    <a target="_blank" rel="noopener noreferrer" aria-label="Bluesky" href="https://bsky.app/profile/dr-anis.bsky.social"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5.202 2.857C7.954 4.922 10.913 9.11 12 11.358c1.087-2.247 4.046-6.436 6.798-8.501C20.783 1.366 24 .213 24 3.883c0 .732-.42 6.156-.667 7.037-.856 3.061-3.978 3.842-6.755 3.37 4.854.826 6.089 3.562 3.422 6.299-5.065 5.196-7.28-1.304-7.847-2.97-.104-.305-.152-.448-.153-.327 0-.121-.05.022-.153.327-.568 1.666-2.782 8.166-7.847 2.97-2.667-2.737-1.432-5.473 3.422-6.3-2.777.473-5.899-.308-6.755-3.369C.42 10.04 0 4.615 0 3.883c0-3.67 3.217-2.517 5.202-1.026"/></svg></a>
+                    <a target="_blank" rel="noopener noreferrer" aria-label="ORCID" href="https://orcid.org/0000-0002-7066-8917"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-2.016-1.284-3.722-4.097-3.722h-2.222z"/></svg></a>
+                    <a target="_blank" rel="noopener noreferrer" aria-label="Google Scholar" href="https://scholar.google.com/citations?user=b2aa4SEAAAAJ&amp;hl=en"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg></a>
+                </p>
+            </div>
+        </div>
+        <div class="stamp">
+            <span><a href="index.html">&larr; Back to main</a></span>
+            <span>Last update: August 2026</span>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function () {
+    "use strict";
+    var targets = document.querySelectorAll(".rise");
+    if (!("IntersectionObserver" in window) || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        Array.prototype.forEach.call(targets, function (t) { t.classList.add("in"); });
+    } else {
+        var io = new IntersectionObserver(function (es) {
+            es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } });
+        }, { rootMargin: "0px 0px -6% 0px", threshold: 0.04 });
+        Array.prototype.forEach.call(targets, function (t) { io.observe(t); });
+    }
+})();
+</script>
+
 </body>
 </html>
