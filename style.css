@@ -1,0 +1,531 @@
+/* =========================================================
+   Webfonts — self-hosted, nothing is fetched from Google.
+   Space Grotesk, Instrument Serif and Space Mono, SIL Open
+   Font License 1.1; see fonts/OFL.txt. The latin-ext files
+   are only downloaded by the browser if a visitor's page
+   needs a character in that range (unicode-range below).
+   ========================================================= */
+
+@font-face {
+    font-family: 'Instrument Serif';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url('fonts/InstrumentSerif-400italic-latin-ext.woff2') format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+    font-family: 'Instrument Serif';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url('fonts/InstrumentSerif-400italic-latin.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Instrument Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('fonts/InstrumentSerif-400-latin-ext.woff2') format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+    font-family: 'Instrument Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('fonts/InstrumentSerif-400-latin.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400 700;
+    font-display: swap;
+    src: url('fonts/SpaceGrotesk-var-latin-ext.woff2') format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400 700;
+    font-display: swap;
+    src: url('fonts/SpaceGrotesk-var-latin.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('fonts/SpaceMono-400-latin-ext.woff2') format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('fonts/SpaceMono-400-latin.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('fonts/SpaceMono-700-latin-ext.woff2') format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('fonts/SpaceMono-700-latin.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* =========================================================
+   Anis Senoussi — PLAKAT
+   The mid/ layout with a poster's weight: cobalt, pine,
+   magenta and mustard instead of the warm inks, and every
+   rule roughly twice as thick.
+   ========================================================= */
+
+:root {
+    --paper:  #ffffff;
+    --ink:    #0b0b0c;
+    --ink-soft: #3a3b40;   /* body-weight grey — must stay readable, not decorative */
+    --ink-faint: #6c6e76;
+    --rule:   #cbcbcf;
+    --rule-strong: #b0b0b4;
+
+    /* Poster inks — flat, graphic, no warm red anywhere. */
+    --c-fate:      #1b4dc7;   /* cobalt   */
+    --c-spacetime: #00736b;   /* pine     */
+    --c-selforg:   #9c1f6a;   /* magenta  */
+    --c-synbio:    #7a5c00;   /* mustard  */
+    --accent:      var(--c-fate);
+
+    --shell: 1220px;
+    --gutter: clamp(1.2rem, 4.5vw, 4rem);
+    --ease: cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+
+body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+    font-size: 17px;
+    line-height: 1.42;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* A whisper of grain — enough to stop the white looking like a screenshot. */
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+    pointer-events: none;
+    opacity: 0.055;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.shell { max-width: var(--shell); margin: 0 auto; padding-inline: var(--gutter); }
+
+/* --- Voices ------------------------------------------------------------ */
+.serif { font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; letter-spacing: -0.005em; }
+
+.mono, .label, .room-no, .work .yr, .tag, .chip, .hero-meta,
+.foot h4, .stamp, .ticker, .row .when, .topbar .mark, .who {
+    font-family: 'Space Mono', ui-monospace, monospace;
+}
+
+.label { font-size: 0.80rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink-faint); }
+
+p { margin: 0 0 0.85em; }
+
+a { color: inherit; text-decoration: none; }
+.u { box-shadow: inset 0 -2px 0 var(--rule-strong); transition: color 0.18s var(--ease), box-shadow 0.18s var(--ease); }
+.u:hover { color: var(--accent); box-shadow: inset 0 -3px 0 var(--accent); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+/* =========================================================
+   Ticker — quiet, slow, one line
+   ========================================================= */
+.ticker {
+    background: var(--ink);
+    color: var(--paper);
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0.45rem 0;
+    font-size: 0.79rem;
+    /* Normal case: the items carry proper nouns — bioRxiv, MYCN, journal
+       names — that uppercase would flatten. Only the label is small caps. */
+    letter-spacing: 0.04em;
+}
+.ticker-track { display: inline-flex; animation: slide 75s linear infinite; }
+.ticker-track .news { padding-inline: 1.5rem; white-space: nowrap; }
+/* One item per .item; the separator dot and the air around it are drawn here,
+   so spacing is a single number rather than spaces typed into the markup. */
+.ticker-track .item { white-space: nowrap; }
+.ticker-track .item::before { content: "·"; color: #6c6e76; margin: 0 2rem; }
+.ticker-track .news b {
+    font-weight: 700;
+    color: var(--c-fate);
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    margin-right: 0.2rem;
+}
+.ticker-track .news i { font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 1.15em; letter-spacing: 0; text-transform: none; }
+@keyframes slide { to { transform: translateX(-50%); } }
+
+/* =========================================================
+   Top bar
+   ========================================================= */
+.topbar {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    background: color-mix(in srgb, var(--paper) 92%, transparent);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-bottom: 2px solid var(--rule);
+    display: flex;
+    align-items: baseline;
+    gap: 0.8rem 2rem;
+    flex-wrap: wrap;
+    padding-block: 0.8rem 0.7rem;
+}
+.topbar .mark { font-size: 0.86rem; letter-spacing: 0.16em; text-transform: uppercase; white-space: nowrap; }
+.topbar .mark:hover { color: var(--accent); }
+.topbar nav { margin-left: auto; font-size: 1rem; letter-spacing: -0.015em; }
+.topbar nav a { padding-bottom: 2px; border-bottom: 2.5px solid transparent; }
+.topbar nav a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* =========================================================
+   Hero
+   ========================================================= */
+.hero { padding-block: clamp(2.25rem, 5.5vw, 4rem) clamp(1.75rem, 3vw, 2.75rem); border-bottom: 2px solid var(--rule); }
+.hero .kicker { display: block; margin-bottom: 0.9rem; }
+
+.hero h1 {
+    margin: 0 0 0.5rem;
+    font-size: clamp(2rem, 4.6vw, 2.9rem);
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    line-height: 0.95;
+}
+
+/* The question does the talking: grotesque, then a serif italic turn. */
+.standfirst {
+    font-size: clamp(1.3rem, 2.9vw, 2.15rem);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.03em;
+    max-width: 26ch;
+    margin: 0 0 1.6rem;
+}
+.standfirst .turn {
+    font-family: 'Instrument Serif', Georgia, serif;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-size: 1.14em;
+    color: var(--accent);
+}
+
+.hero-meta { display: flex; flex-wrap: wrap; gap: 0.35rem 2.5rem; font-size: 0.88rem; color: var(--ink-soft); }
+.hero-meta .k { color: var(--ink-faint); text-transform: uppercase; letter-spacing: 0.17em; font-size: 0.75rem; margin-right: 0.55rem; }
+
+/* =========================================================
+   Sections
+   ========================================================= */
+.room { padding-block: clamp(2.75rem, 6vw, 5rem) 0; }
+
+.room-head {
+    display: flex;
+    align-items: baseline;
+    gap: 1.1rem;
+    padding-bottom: 0.85rem;
+    margin-bottom: clamp(1.5rem, 2.5vw, 2.25rem);
+    border-bottom: 2px solid var(--rule);
+}
+/* Outlined numerals — a quiet borrow from the loud version. */
+.room-no {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: clamp(1.15rem, 2vw, 1.6rem);
+    letter-spacing: -0.03em;
+    line-height: 1;
+    color: transparent;
+    -webkit-text-stroke: 2px var(--accent);
+    flex: none;
+}
+.room-head h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: clamp(1.7rem, 3.4vw, 2.6rem);
+    line-height: 1;
+    letter-spacing: -0.04em;
+}
+
+.room-intro {
+    max-width: none;
+    margin-bottom: clamp(2rem, 3.5vw, 3rem);
+    color: var(--ink-soft);
+    font-size: clamp(1.05rem, 1.6vw, 1.3rem);
+    line-height: 1.34;
+    letter-spacing: -0.012em;
+}
+.room-intro em { font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 1.14em; color: var(--ink); }
+
+/* =========================================================
+   Research — white ground, colour on the titles
+   ========================================================= */
+.panels {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: clamp(1.5rem, 2.5vw, 2.25rem) clamp(2rem, 4vw, 3.5rem);
+}
+
+.panel {
+    --c: var(--accent);
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    padding: 1rem 1.1rem 1.2rem;
+    margin-inline: -1.1rem;
+    border-top: 7px solid var(--c);
+    cursor: pointer;
+    transition: background-color 0.25s var(--ease);
+}
+.panel:hover, .panel.is-active { background: color-mix(in srgb, var(--c) 6%, white); }
+.panel:focus-visible { outline: 2px solid var(--c); outline-offset: -2px; }
+.panel.is-static { cursor: default; }
+
+.panel[data-theme-key="fate"]      { --c: var(--c-fate); }
+.panel[data-theme-key="spacetime"] { --c: var(--c-spacetime); }
+.panel[data-theme-key="selforg"]   { --c: var(--c-selforg); }
+.panel[data-theme-key="synbio"]    { --c: var(--c-synbio); }
+
+.panel h3 {
+    margin: 0;
+    font-weight: 700;
+    font-size: clamp(1.25rem, 2.1vw, 1.7rem);
+    line-height: 1.05;
+    letter-spacing: -0.035em;
+    max-width: 19ch;
+    color: var(--c);
+}
+.panel p { margin: 0; font-size: 0.98rem; line-height: 1.42; color: var(--ink-soft); max-width: 48ch; }
+.panel p em {
+    font-family: 'Instrument Serif', Georgia, serif;
+    font-style: italic;
+    font-size: 1.16em;
+    color: var(--ink);
+}
+
+/* Theme 1 lists its layers of control. Same size, leading and colour as the
+   paragraph above it — only the label is bold, no glyphs, no indent. */
+.panel .layers { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 0.45rem; }
+.panel .layers li { font-size: 0.98rem; line-height: 1.42; color: var(--ink-soft); max-width: 48ch; }
+.panel .layers li b { color: var(--ink); font-weight: 700; }
+
+.panel-links { margin-top: auto; padding-top: 0.9rem; display: flex; flex-wrap: wrap; gap: 0.35rem; align-items: center; }
+.panel-links .lk { font-family: 'Space Mono', monospace; font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-faint); margin-right: 0.4rem; }
+
+.chip {
+    font-size: 0.78rem;
+    padding: 0.2rem 0.6rem 0.24rem;
+    border: 2px solid color-mix(in srgb, var(--c) 40%, white);
+    border-radius: 100px;
+    color: var(--c);
+    white-space: nowrap;
+    transition: background-color 0.18s var(--ease), color 0.18s var(--ease), border-color 0.18s var(--ease);
+}
+.chip:hover { background: var(--c); border-color: var(--c); color: #fff; }
+
+/* =========================================================
+   Publications
+   ========================================================= */
+.filterbar { display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; min-height: 0; margin-bottom: 0; }
+.filterbar.is-on { min-height: 1.75rem; margin-bottom: 0.85rem; }
+.filterbar .note { font-size: 0.86rem; color: var(--ink-soft); }
+.filterbar .clear {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase;
+    border: none; background: var(--ink); color: #fff;
+    padding: 0.32rem 0.78rem; border-radius: 100px; cursor: pointer;
+    transition: background-color 0.18s var(--ease);
+}
+.filterbar .clear:hover { background: var(--accent); }
+
+.works { border-top: 2px solid var(--rule); }
+
+.work {
+    --c: var(--c-fate);
+    display: grid;
+    grid-template-columns: 7rem minmax(0, 1fr);
+    gap: 0 2rem;
+    padding: 1rem 1.1rem 1.05rem;
+    margin-inline: -1.1rem;
+    border-bottom: 2px solid var(--rule);
+    position: relative;
+    transition: background-color 0.22s var(--ease), opacity 0.3s var(--ease);
+}
+/* Hover states a tint of the work's own theme, with a solid edge. */
+.work::before {
+    content: "";
+    position: absolute;
+    left: 0; top: -1px; bottom: -1px;
+    width: 5px;
+    background: var(--c);
+    transform: scaleY(0);
+    transition: transform 0.25s var(--ease);
+}
+.work:hover { background: color-mix(in srgb, var(--c) 6%, white); }
+.work:hover::before { transform: scaleY(1); }
+.work.is-dim { opacity: 0.2; }
+
+.work .yr {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: clamp(1.05rem, 1.7vw, 1.35rem);
+    letter-spacing: -0.04em;
+    line-height: 1;
+    color: var(--ink-faint);
+    padding-top: 0.3rem;
+}
+.work .badge {
+    display: block; width: max-content; margin-top: 0.45rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.75rem; font-weight: 400; letter-spacing: 0.15em; text-transform: uppercase;
+    color: var(--c); border: 1px solid var(--c); border-radius: 100px; padding: 0.05rem 0.45rem 0.09rem;
+}
+
+.body { max-width: 76ch; }
+.who { display: block; font-size: 0.87rem; line-height: 1.45; color: var(--ink-soft); margin-bottom: 0.3rem; }
+.who b { color: var(--ink); font-weight: 700; }
+.ttl { margin: 0 0 0.5rem; font-weight: 500; font-size: 1.09rem; line-height: 1.24; letter-spacing: -0.025em; }
+.venue { font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; font-size: 1.16em; letter-spacing: 0; color: var(--ink-soft); }
+
+.work-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem 1rem; }
+.links { display: flex; gap: 0.95rem; }
+.links a { font-size: 0.89rem; box-shadow: inset 0 -2px 0 var(--rule-strong); }
+.links a:hover { color: var(--c); box-shadow: inset 0 -3px 0 var(--c); }
+
+.tags { display: flex; gap: 0.3rem; flex-wrap: wrap; margin-left: auto; }
+.tag {
+    font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase;
+    padding: 0.17rem 0.55rem 0.21rem; border-radius: 100px;
+    border: 2px solid color-mix(in srgb, var(--dot) 38%, white);
+    color: var(--dot); background: transparent; cursor: pointer;
+    transition: background-color 0.18s var(--ease), color 0.18s var(--ease), border-color 0.18s var(--ease);
+}
+.tag:hover { background: var(--dot); border-color: var(--dot); color: #fff; }
+.tag[data-theme="fate"]      { --dot: var(--c-fate); }
+.tag[data-theme="spacetime"] { --dot: var(--c-spacetime); }
+.tag[data-theme="selforg"]   { --dot: var(--c-selforg); }
+.tag[data-theme="synbio"]    { --dot: var(--c-synbio); }
+
+.more { margin-top: 1.1rem; font-size: 0.95rem; color: var(--ink-soft); }
+
+/* =========================================================
+   Ledger
+   ========================================================= */
+.rows { border-top: 2px solid var(--rule); }
+.row {
+    display: grid;
+    grid-template-columns: 9rem minmax(0, 1fr) auto;
+    gap: 0.1rem 2.25rem;
+    padding: 0.78rem 0 0.82rem;
+    border-bottom: 2px solid var(--rule);
+    align-items: baseline;
+}
+.row .when { font-size: 0.88rem; color: var(--ink-faint); letter-spacing: 0.03em; }
+.row .what { font-size: 1.02rem; letter-spacing: -0.018em; }
+.row .what i { font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 1.13em; }
+.row .where { font-size: 0.89rem; color: var(--ink-soft); text-align: right; white-space: nowrap; }
+.city { color: var(--accent); }
+
+/* =========================================================
+   Footer — dark block
+   ========================================================= */
+.foot { margin-top: clamp(3rem, 6vw, 5rem); background: var(--ink); color: var(--paper); }
+.foot-inner { max-width: var(--shell); margin: 0 auto; padding: clamp(2.25rem, 5vw, 3.5rem) var(--gutter) clamp(1.25rem, 2.5vw, 2rem); }
+.foot .big {
+    color: var(--paper);
+    font-weight: 700;
+    font-size: clamp(1rem, 2.2vw, 1.5rem);
+    line-height: 1.06;
+    letter-spacing: -0.04em;
+    margin: 0 0 clamp(1.5rem, 3.5vw, 2.5rem);
+    overflow-wrap: anywhere;
+}
+.foot .big .turn { font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; letter-spacing: -0.01em; font-size: 1.12em; }
+.foot .big a { box-shadow: inset 0 -3px 0 #4a4b52; }
+.foot .big a:hover { box-shadow: inset 0 -3px 0 var(--paper); }
+.foot-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 1.6rem 2.5rem; }
+.foot h4 { margin: 0 0 0.65rem; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; color: #84858d; font-weight: 400; }
+.foot p { margin: 0; font-size: 0.95rem; line-height: 1.5; color: #cfcfd4; }
+
+.socials { display: flex; gap: 0.95rem; }
+.socials a { display: inline-flex; transition: transform 0.2s var(--ease); }
+.socials a:hover { transform: translateY(-3px); }
+.socials svg { width: 1.15rem; height: 1.15rem; fill: currentColor; display: block; }
+.socials a[aria-label="LinkedIn"]       { color: #7f9dff; }
+.socials a[aria-label="Bluesky"]        { color: #ff8ac4; }
+.socials a[aria-label="ORCID"]          { color: #4fc2b4; }
+.socials a[aria-label="Google Scholar"] { color: #e0b64f; }
+
+.stamp {
+    margin-top: clamp(1.75rem, 3.5vw, 2.5rem);
+    padding-top: 1rem;
+    border-top: 2px solid #27282c;
+    display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem;
+    font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; color: #84858d;
+}
+
+/* =========================================================
+   Motion
+   ========================================================= */
+.rise { opacity: 0; transform: translateY(16px); transition: opacity 0.6s var(--ease), transform 0.6s var(--ease); }
+.rise.in { opacity: 1; transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .rise { opacity: 1; transform: none; transition: none; }
+    .ticker-track { animation: none; }
+    * { transition-duration: 0.01ms !important; }
+}
+
+/* =========================================================
+   Responsive
+   ========================================================= */
+@media (min-width: 1500px) { :root { --shell: 1320px; } }
+
+@media (max-width: 900px) {
+    .panels { grid-template-columns: 1fr; }
+    .panel h3, .panel p { max-width: none; }
+    .work { grid-template-columns: 1fr; gap: 0.45rem; }
+    .work .yr { display: flex; align-items: baseline; gap: 0.7rem; padding-top: 0; }
+    .work .badge { margin-top: 0; }
+    .body { max-width: none; }
+    .tags { margin-left: 0; }
+    .row { grid-template-columns: 1fr; }
+    .row .where { text-align: left; }
+    .standfirst { max-width: none; }
+}
+
+@media (max-width: 620px) {
+    body { font-size: 16px; }
+    .topbar nav { margin-left: 0; font-size: 0.92rem; }
+}
