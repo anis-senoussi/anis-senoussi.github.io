@@ -1,57 +1,71 @@
 /* =========================================================
    Webfonts — self-hosted, nothing is fetched from Google.
-   Space Grotesk, Instrument Serif and Space Mono, SIL Open
-   Font License 1.1; see fonts/OFL.txt. The latin-ext files
-   are only downloaded by the browser if a visitor's page
-   needs a character in that range (unicode-range below).
+   Jost, Cormorant Garamond and Space Mono, SIL Open Font
+   License 1.1; see fonts/OFL.txt.
    ========================================================= */
 
 @font-face {
-    font-family: 'Instrument Serif';
+    font-family: 'Jost';
     font-style: italic;
     font-weight: 400;
     font-display: swap;
-    src: url('fonts/InstrumentSerif-400italic-latin-ext.woff2') format('woff2');
-    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    src: url('fonts/Jost-400italic-latin-ext.woff2') format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 @font-face {
-    font-family: 'Instrument Serif';
+    font-family: 'Jost';
     font-style: italic;
     font-weight: 400;
     font-display: swap;
-    src: url('fonts/InstrumentSerif-400italic-latin.woff2') format('woff2');
+    src: url('fonts/Jost-400italic-latin.woff2') format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 @font-face {
-    font-family: 'Instrument Serif';
+    font-family: 'Jost';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400 700;
     font-display: swap;
-    src: url('fonts/InstrumentSerif-400-latin-ext.woff2') format('woff2');
-    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    src: url('fonts/Jost-400-700-latin-ext.woff2') format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 @font-face {
-    font-family: 'Instrument Serif';
+    font-family: 'Jost';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400 700;
     font-display: swap;
-    src: url('fonts/InstrumentSerif-400-latin.woff2') format('woff2');
+    src: url('fonts/Jost-400-700-latin.woff2') format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 @font-face {
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 400 700;
+    font-family: 'Cormorant Garamond';
+    font-style: italic;
+    font-weight: 400;
     font-display: swap;
-    src: url('fonts/SpaceGrotesk-var-latin-ext.woff2') format('woff2');
-    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    src: url('fonts/CormorantGaramond-400italic-latin-ext.woff2') format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 @font-face {
-    font-family: 'Space Grotesk';
+    font-family: 'Cormorant Garamond';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url('fonts/CormorantGaramond-400italic-latin.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Cormorant Garamond';
     font-style: normal;
     font-weight: 400 700;
     font-display: swap;
-    src: url('fonts/SpaceGrotesk-var-latin.woff2') format('woff2');
+    src: url('fonts/CormorantGaramond-400-700-latin-ext.woff2') format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400 700;
+    font-display: swap;
+    src: url('fonts/CormorantGaramond-400-700-latin.woff2') format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 @font-face {
@@ -88,26 +102,32 @@
 }
 
 /* =========================================================
-   Anis Senoussi — BOGEN
-   The plakat/ palette and weights, but the rules are
-   rationed: one under the name, one under each section
-   head, and nothing between the rows. Space does the
-   separating that lines used to do.
+   Anis Senoussi — 2026-10-09
+   Jost throughout, with a Cormorant Garamond italic for the
+   accents and Space Mono for the labels. The inks were drawn
+   from a photograph of zebrafish embryos — 14-19% saturated
+   on an #e0e0e0 ground — which is why they sit at that
+   chroma and why the stock is grey. Rules stay rationed.
    ========================================================= */
 
 :root {
-    --paper:  #ffffff;
-    --ink:    #0b0b0c;
-    --ink-soft: #3a3b40;   /* body-weight grey — must stay readable, not decorative */
-    --ink-faint: #6c6e76;
-    --rule:   #d6d6da;
-    --rule-strong: #b0b0b4;
+    /* The stock is the photograph's ground, lifted to page weight. The band
+       is filtered to meet it exactly, so there is no seam between them. */
+    --paper:  #ebebee;
+    --ink:    #191c24;     /* near-black with the image's cool cast, not pure black */
+    --ink-soft: #3c4049;
+    --ink-faint: #6b6f7a;
+    --rule:   #c9c9d0;
+    --rule-strong: #a9a9b4;
 
-    /* Poster inks — flat, graphic, no warm red anywhere. */
-    --c-fate:      #1b4dc7;   /* cobalt   */
-    --c-spacetime: #00736b;   /* pine     */
-    --c-selforg:   #9c1f6a;   /* magenta  */
-    --c-synbio:    #7a5c00;   /* mustard  */
+    /* Inks at the photograph's chroma. The hues are unchanged from plakat/ —
+       the embryo rim is hue 231, cobalt was 223, they were never far apart.
+       What clashed was saturation: 76-100% against the image's 14-19%. These
+       sit at 27-38% and clear 5.7:1 on the stock. */
+    --c-fate:      #3b4a7a;   /* slate — the embryo colour, deepened */
+    --c-spacetime: #2d6360;   /* teal  */
+    --c-selforg:   #6e3f63;   /* plum  */
+    --c-synbio:    #55602f;   /* olive */
     --accent:      var(--c-fate);
 
     --shell: 1220px;
@@ -122,9 +142,11 @@ body {
     margin: 0;
     background: var(--paper);
     color: var(--ink);
-    font-family: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
-    font-size: 17px;
-    line-height: 1.42;
+    font-family: 'Jost', ui-sans-serif, system-ui, sans-serif;
+    /* Jost has a smaller x-height than the grotesk it replaces: a little more
+       size and a little more leading, or the page reads thin and cramped. */
+    font-size: 18px;
+    line-height: 1.55;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -142,14 +164,18 @@ body::after {
 .shell { max-width: var(--shell); margin: 0 auto; padding-inline: var(--gutter); }
 
 /* --- Voices ------------------------------------------------------------ */
-.serif { font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; letter-spacing: -0.005em; }
+/* Every Cormorant accent carries `line-height: 1`. The italics are set at
+   1.24-1.28em, and an inline that is taller than its parent's leading grows the
+   line box it happens to sit on — so a paragraph with an accent in it gets one
+   loose line among tight ones. Pinned to 1, the accent's box stays inside the
+   parent's leading and the paragraph keeps a single rhythm. Check this again if
+   an accent size goes up. */
 
-.mono, .label, .room-no, .work .yr, .tag, .chip, .hero-meta,
-.foot h4, .stamp, .ticker, .row .when, .topbar .mark, .who {
+.room-no, .work .yr, .tag, .chip, .hero-meta,
+.foot h4, .stamp, .ticker, .row .when, .who {
     font-family: 'Space Mono', ui-monospace, monospace;
 }
 
-.label { font-size: 0.80rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink-faint); }
 
 p { margin: 0 0 0.85em; }
 
@@ -181,11 +207,11 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .ticker-track .news b {
     font-weight: 700;
     color: var(--c-fate);
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: 0.18em;
     margin-right: 0.2rem;
 }
-.ticker-track .news i { font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 1.15em; letter-spacing: 0; text-transform: none; }
+.ticker-track .news i { font-family: 'Cormorant Garamond', Garamond, Georgia, serif; font-style: italic; font-size: 1.26em; line-height: 1; letter-spacing: 0; text-transform: none; }
 @keyframes slide { to { transform: translateX(-50%); } }
 
 /* =========================================================
@@ -205,8 +231,6 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
     flex-wrap: wrap;
     padding-block: 0.8rem 0.7rem;
 }
-.topbar .mark { font-size: 0.86rem; letter-spacing: 0.16em; text-transform: uppercase; white-space: nowrap; }
-.topbar .mark:hover { color: var(--accent); }
 .topbar nav { margin-left: auto; font-size: 1rem; letter-spacing: -0.015em; }
 .topbar nav a { padding-bottom: 2px; border-bottom: 2.5px solid transparent; }
 .topbar nav a:hover { color: var(--accent); border-bottom-color: var(--accent); }
@@ -218,15 +242,14 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
    with the description and the metadata sharing the row underneath. No closing
    rule — the first room's own head rule is close enough below it. */
 .hero { padding-block: clamp(1.75rem, 4vw, 3rem) clamp(1.75rem, 3vw, 2.75rem); }
-.hero .kicker { display: block; margin-bottom: 0.9rem; }
 
 .hero h1 {
     margin: 0;
     font-size: clamp(2.3rem, 8vw, 6rem);
     font-weight: 700;
-    letter-spacing: -0.045em;
+    letter-spacing: -0.012em;
     line-height: 0.86;
-    border-bottom: 7px solid var(--ink);
+    border-bottom: 7px solid var(--c-fate);   /* the slate from the embryos, not black */
     padding-block: 0 0.08em;
 }
 
@@ -240,7 +263,7 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
 /* No longer display type: the description is read, not announced. */
 .standfirst {
-    font-size: clamp(1.02rem, 1.45vw, 1.25rem);
+    font-size: clamp(1.1rem, 1.55vw, 1.34rem);
     font-weight: 400;
     line-height: 1.45;
     letter-spacing: -0.006em;
@@ -248,16 +271,24 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
     margin: 0;
 }
 .standfirst .turn {
-    font-family: 'Instrument Serif', Georgia, serif;
+    font-family: 'Cormorant Garamond', Garamond, Georgia, serif;
     font-style: italic;
     font-weight: 400;
     letter-spacing: -0.005em;
-    font-size: 1.1em;
+    font-size: 1.24em;
+    line-height: 1;
     color: var(--accent);
 }
 
-.hero-meta { display: grid; gap: 0.4rem; font-size: 0.88rem; color: var(--ink-soft); }
-.hero-meta .k { color: var(--ink-faint); text-transform: uppercase; letter-spacing: 0.17em; font-size: 0.75rem; margin-right: 0.55rem; }
+.hero-meta { display: grid; gap: 0.4rem; font-size: 0.94rem; color: var(--ink-soft); }
+.hero-meta .k { color: var(--ink-faint); text-transform: lowercase; letter-spacing: 0.17em; font-size: 0.75rem; margin-right: 0.55rem; }
+
+/* Bauhaus lowercase — Bayer's "wir schreiben alles klein". Every label, tag,
+   wall label and section title is set lowercase; only the running text keeps
+   its capitals, because lowercasing proper nouns in prose would be illegible,
+   not stylish. The tracking stays as it was: lowercase at these sizes needs it
+   as much as the capitals did. */
+.topbar nav, .room-head h2 { text-transform: lowercase; }
 
 /* =========================================================
    Sections
@@ -265,6 +296,7 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .room { padding-block: clamp(2.75rem, 6vw, 5rem) 0; }
 
 .room-head {
+    position: relative;
     display: flex;
     align-items: baseline;
     gap: 1.1rem;
@@ -274,32 +306,46 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 }
 /* Outlined numerals — a quiet borrow from the loud version. */
 .room-no {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Jost', ui-sans-serif, system-ui, sans-serif;
     font-weight: 700;
     font-size: clamp(1.15rem, 2vw, 1.6rem);
-    letter-spacing: -0.03em;
+    letter-spacing: -0.015em;
     line-height: 1;
     color: transparent;
     -webkit-text-stroke: 2px var(--accent);
     flex: none;
+}
+
+/* The numeral turns into the left margin and reads bottom-to-top, as on the
+   1923 exhibition posters. Only where the gutter is wide enough to hold it —
+   below this it stays in line, which is what the flex row above does anyway.
+   To undo: delete this block. */
+@media (min-width: 1200px) {
+    .room-head .room-no {
+        position: absolute;
+        left: -2.75rem;
+        top: 0;
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+    }
 }
 .room-head h2 {
     margin: 0;
     font-weight: 700;
     font-size: clamp(1.7rem, 3.4vw, 2.6rem);
     line-height: 1;
-    letter-spacing: -0.04em;
+    letter-spacing: -0.02em;
 }
 
 .room-intro {
     max-width: none;
     margin-bottom: clamp(2rem, 3.5vw, 3rem);
     color: var(--ink-soft);
-    font-size: clamp(1.05rem, 1.6vw, 1.3rem);
+    font-size: clamp(1.14rem, 1.7vw, 1.4rem);
     line-height: 1.34;
     letter-spacing: -0.012em;
 }
-.room-intro em { font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 1.14em; color: var(--ink); }
+.room-intro em { font-family: 'Cormorant Garamond', Garamond, Georgia, serif; font-style: italic; font-size: 1.26em; line-height: 1; color: var(--ink); }
 
 /* =========================================================
    Research — white ground, colour on the titles
@@ -307,17 +353,21 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .panels {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: clamp(1.5rem, 2.5vw, 2.25rem) clamp(2rem, 4vw, 3.5rem);
+    /* one gutter, used in both directions: the four entries sit on a square
+       grid rather than in two loosely spaced rows */
+    gap: clamp(2.25rem, 3.5vw, 3rem);
 }
 
 .panel {
     --c: var(--accent);
     display: flex;
     flex-direction: column;
-    gap: 0.7rem;
-    padding: 1rem 1.1rem 1.2rem;
+    gap: 0.9rem;
+    /* equal padding on every side, and a colour bar across the top — each
+       entry is a block, not a paragraph with a marker beside it */
+    border-top: 6px solid var(--c);
+    padding: 1.1rem 1.1rem 1.4rem;
     margin-inline: -1.1rem;
-    border-top: 7px solid var(--c);
     cursor: pointer;
     transition: background-color 0.25s var(--ease);
 }
@@ -334,27 +384,31 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
     margin: 0;
     font-weight: 700;
     font-size: clamp(1.25rem, 2.1vw, 1.7rem);
-    line-height: 1.05;
-    letter-spacing: -0.035em;
-    max-width: 19ch;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    max-width: 20ch;
     color: var(--c);
 }
-.panel p { margin: 0; font-size: 0.98rem; line-height: 1.42; color: var(--ink-soft); max-width: 48ch; }
+.panel p { margin: 0; font-size: 1.06rem; line-height: 1.55; color: var(--ink-soft); max-width: 48ch; }
 .panel p em {
-    font-family: 'Instrument Serif', Georgia, serif;
+    font-family: 'Cormorant Garamond', Garamond, Georgia, serif;
     font-style: italic;
-    font-size: 1.16em;
+    font-size: 1.28em;
+    line-height: 1;
     color: var(--ink);
 }
 
 /* Theme 1 lists its layers of control. Same size, leading and colour as the
    paragraph above it — only the label is bold, no glyphs, no indent. */
-.panel .layers { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 0.45rem; }
-.panel .layers li { font-size: 0.98rem; line-height: 1.42; color: var(--ink-soft); max-width: 48ch; }
-.panel .layers li b { color: var(--ink); font-weight: 700; }
+.panel .layers { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+.panel .layers li { font-size: 1.06rem; line-height: 1.55; color: var(--ink-soft); max-width: 48ch; }
+/* The named things inside an entry — the layers, the ingredients, the two ends
+   — are bold and take the full ink, whether they sit in the list or inline in a
+   sentence. */
+.panel .layers li b, .panel p b { color: var(--ink); font-weight: 700; }
 
 .panel-links { margin-top: auto; padding-top: 0.9rem; display: flex; flex-wrap: wrap; gap: 0.35rem; align-items: center; }
-.panel-links .lk { font-family: 'Space Mono', monospace; font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-faint); margin-right: 0.4rem; }
+.panel-links .lk { font-family: 'Space Mono', ui-monospace, monospace; font-size: 0.75rem; letter-spacing: 0.14em; text-transform: lowercase; color: var(--ink-faint); margin-right: 0.4rem; }
 
 .chip {
     font-size: 0.78rem;
@@ -372,10 +426,10 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
    ========================================================= */
 .filterbar { display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; min-height: 0; margin-bottom: 0; }
 .filterbar.is-on { min-height: 1.75rem; margin-bottom: 0.85rem; }
-.filterbar .note { font-size: 0.86rem; color: var(--ink-soft); }
+.filterbar .note { font-size: 0.92rem; color: var(--ink-soft); }
 .filterbar .clear {
-    font-family: 'Space Mono', monospace;
-    font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase;
+    font-family: 'Space Mono', ui-monospace, monospace;
+    font-size: 0.75rem; letter-spacing: 0.14em; text-transform: lowercase;
     border: none; background: var(--ink); color: #fff;
     padding: 0.32rem 0.78rem; border-radius: 100px; cursor: pointer;
     transition: background-color 0.18s var(--ease);
@@ -389,7 +443,7 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
     display: grid;
     grid-template-columns: 7rem minmax(0, 1fr);
     gap: 0 2rem;
-    padding: 1.15rem 1.1rem 1.25rem;
+    padding: 0.7rem 1.1rem 0.8rem;
     margin-inline: -1.1rem;
     position: relative;
     transition: background-color 0.22s var(--ease), opacity 0.3s var(--ease);
@@ -409,35 +463,34 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .work.is-dim { opacity: 0.2; }
 
 .work .yr {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Jost', ui-sans-serif, system-ui, sans-serif;
     font-weight: 700;
     font-size: clamp(1.05rem, 1.7vw, 1.35rem);
-    letter-spacing: -0.04em;
+    letter-spacing: -0.02em;
     line-height: 1;
     color: var(--ink-faint);
     padding-top: 0.3rem;
 }
 .work .badge {
     display: block; width: max-content; margin-top: 0.45rem;
-    font-family: 'Space Mono', monospace;
-    font-size: 0.75rem; font-weight: 400; letter-spacing: 0.15em; text-transform: uppercase;
+    font-family: 'Space Mono', ui-monospace, monospace;
+    font-size: 0.75rem; font-weight: 400; letter-spacing: 0.15em; text-transform: lowercase;
     color: var(--c); border: 1px solid var(--c); border-radius: 100px; padding: 0.05rem 0.45rem 0.09rem;
 }
 
-.body { max-width: 76ch; }
-.who { display: block; font-size: 0.87rem; line-height: 1.45; color: var(--ink-soft); margin-bottom: 0.3rem; }
+.who { display: block; font-size: 0.92rem; line-height: 1.4; color: var(--ink-soft); margin-bottom: 0.2rem; }
 .who b { color: var(--ink); font-weight: 700; }
-.ttl { margin: 0 0 0.5rem; font-weight: 500; font-size: 1.09rem; line-height: 1.24; letter-spacing: -0.025em; }
-.venue { font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; font-size: 1.16em; letter-spacing: 0; color: var(--ink-soft); }
+.ttl { margin: 0 0 0.35rem; font-weight: 500; font-size: 1.16rem; line-height: 1.32; letter-spacing: -0.012em; }
+.venue { font-family: 'Cormorant Garamond', Garamond, Georgia, serif; font-style: italic; font-weight: 400; font-size: 1.28em; line-height: 1; letter-spacing: 0; color: var(--ink-soft); }
 
 .work-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem 1rem; }
 .links { display: flex; gap: 0.95rem; }
-.links a { font-size: 0.89rem; box-shadow: inset 0 -2px 0 var(--rule-strong); }
+.links a { font-size: 0.94rem; box-shadow: inset 0 -2px 0 var(--rule-strong); }
 .links a:hover { color: var(--c); box-shadow: inset 0 -3px 0 var(--c); }
 
 .tags { display: flex; gap: 0.3rem; flex-wrap: wrap; margin-left: auto; }
 .tag {
-    font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase;
+    font-size: 0.75rem; letter-spacing: 0.12em; text-transform: lowercase;
     padding: 0.17rem 0.55rem 0.21rem; border-radius: 100px;
     border: 2px solid color-mix(in srgb, var(--dot) 38%, white);
     color: var(--dot); background: transparent; cursor: pointer;
@@ -449,7 +502,7 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .tag[data-theme="selforg"]   { --dot: var(--c-selforg); }
 .tag[data-theme="synbio"]    { --dot: var(--c-synbio); }
 
-.more { margin-top: 1.1rem; font-size: 0.95rem; color: var(--ink-soft); }
+.more { margin-top: 1.1rem; font-size: 1rem; color: var(--ink-soft); }
 
 /* =========================================================
    Ledger
@@ -459,13 +512,13 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
     display: grid;
     grid-template-columns: 9rem minmax(0, 1fr) auto;
     gap: 0.1rem 2.25rem;
-    padding: 0.62rem 0 0.66rem;
+    padding: 0.4rem 0 0.44rem;
     align-items: baseline;
 }
-.row .when { font-size: 0.88rem; color: var(--ink-faint); letter-spacing: 0.03em; }
-.row .what { font-size: 1.02rem; letter-spacing: -0.018em; }
-.row .what i { font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 1.13em; }
-.row .where { font-size: 0.89rem; color: var(--ink-soft); text-align: right; white-space: nowrap; }
+.row .when { font-size: 0.92rem; color: var(--ink-faint); letter-spacing: 0.03em; }
+.row .what { font-size: 1.08rem; letter-spacing: -0.018em; }
+.row .what i { font-family: 'Cormorant Garamond', Garamond, Georgia, serif; font-style: italic; font-size: 1.26em; line-height: 1; }
+.row .where { font-size: 0.94rem; color: var(--ink-soft); text-align: right; white-space: nowrap; }
 .city { color: var(--accent); }
 
 /* =========================================================
@@ -478,32 +531,32 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
     font-weight: 700;
     font-size: clamp(1rem, 2.2vw, 1.5rem);
     line-height: 1.06;
-    letter-spacing: -0.04em;
+    letter-spacing: -0.02em;
     margin: 0 0 clamp(1.5rem, 3.5vw, 2.5rem);
     overflow-wrap: anywhere;
 }
-.foot .big .turn { font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; letter-spacing: -0.01em; font-size: 1.12em; }
+.foot .big .turn { font-family: 'Cormorant Garamond', Garamond, Georgia, serif; font-style: italic; font-weight: 400; letter-spacing: -0.01em; font-size: 1.24em; line-height: 1; }
 .foot .big a { box-shadow: inset 0 -3px 0 #4a4b52; }
 .foot .big a:hover { box-shadow: inset 0 -3px 0 var(--paper); }
 .foot-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 1.6rem 2.5rem; }
-.foot h4 { margin: 0 0 0.65rem; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; color: #84858d; font-weight: 400; }
-.foot p { margin: 0; font-size: 0.95rem; line-height: 1.5; color: #cfcfd4; }
+.foot h4 { margin: 0 0 0.65rem; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: lowercase; color: #84858d; font-weight: 400; }
+.foot p { margin: 0; font-size: 1rem; line-height: 1.5; color: #cfcfd4; }
 
 .socials { display: flex; gap: 0.95rem; }
 .socials a { display: inline-flex; transition: transform 0.2s var(--ease); }
 .socials a:hover { transform: translateY(-3px); }
 .socials svg { width: 1.15rem; height: 1.15rem; fill: currentColor; display: block; }
-.socials a[aria-label="LinkedIn"]       { color: #7f9dff; }
-.socials a[aria-label="Bluesky"]        { color: #ff8ac4; }
-.socials a[aria-label="ORCID"]          { color: #4fc2b4; }
-.socials a[aria-label="Google Scholar"] { color: #e0b64f; }
+.socials a[aria-label="LinkedIn"]       { color: #8e9bc9; }
+.socials a[aria-label="Bluesky"]        { color: #c08fb6; }
+.socials a[aria-label="ORCID"]          { color: #78b3ae; }
+.socials a[aria-label="Google Scholar"] { color: #a8b27e; }
 
 .stamp {
     margin-top: clamp(1.75rem, 3.5vw, 2.5rem);
     padding-top: 1rem;
     border-top: 1px solid #27282c;
     display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem;
-    font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; color: #84858d;
+    font-size: 0.75rem; letter-spacing: 0.15em; text-transform: lowercase; color: #84858d;
 }
 
 /* =========================================================
@@ -530,7 +583,6 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
     .work { grid-template-columns: 1fr; gap: 0.45rem; }
     .work .yr { display: flex; align-items: baseline; gap: 0.7rem; padding-top: 0; }
     .work .badge { margin-top: 0; }
-    .body { max-width: none; }
     .tags { margin-left: 0; }
     .row { grid-template-columns: 1fr; }
     .row .where { text-align: left; }
