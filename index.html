@@ -1,0 +1,495 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Anis Senoussi — MSCA postdoctoral fellow at the Max Delbrück Center for Molecular Medicine, Berlin. Cell fate decisions, self-organization, and single-cell and spatial measurement technologies.">
+    <title>Anis Senoussi</title>
+
+    <link rel="stylesheet" href="style.css">
+    <noscript><style>.rise{opacity:1;transform:none}</style></noscript>
+
+    <!-- PALETTE. Two grounds live in style.css: the default black, and the
+         blue under :root[data-palette="blue"]. This runs before the page
+         paints, so a remembered choice is applied without a flash of the
+         other one. It is deliberately NOT tied to prefers-color-scheme —
+         these are two cuts of the same page, not a light and a dark mode, and
+         a visitor on a light system should still land on the black. Keep this
+         inline and keep it here; moving it to a separate file adds a round
+         trip and the flash comes back. -->
+    <script>
+    (function () {
+        "use strict";
+        var r = document.documentElement;
+        r.className += " js";
+        try {
+            if (localStorage.getItem("palette") === "blue") { r.setAttribute("data-palette", "blue"); }
+        } catch (e) { /* private mode, blocked storage — the default stands */ }
+    })();
+    </script>
+</head>
+<body>
+
+<!-- NEWS TICKER — HIDDEN. Delete the `hidden` attribute below to bring it
+     back; nothing else has been touched, the items and the script still work.
+     Edit the items in the FIRST .news list only, newest first. The second list
+     is an exact duplicate that makes the scroll seamless; the script keeps it
+     in sync, so leave it alone. -->
+<div class="ticker" aria-hidden="true" hidden>
+    <div class="ticker-track">
+        <span class="news">
+            <span class="item"><b>New preprint v2</b> Lineage origin &amp; developmental context in MYCN-dependent neuroblastoma, Aug 2026</span>
+            <span class="item"><b>New paper</b> In vivo single-cell RNA metabolic labeling, <i>Nature Communications</i>, 2026</span>
+        </span>
+        <span class="news" aria-hidden="true"></span>
+    </div>
+</div>
+
+<header class="topbar shell">
+    <nav>
+        <a href="#research">Research</a>,
+        <a href="#publications">Publications</a>,
+        <a href="#bio">Bio</a>,
+        <a href="#funding">Funding</a>,
+        <a href="#contact">Contact</a>,
+        <a href="misc.html">Misc</a>
+    </nav>
+    <!-- Two words, no box. The live one is the one in full-strength ink. -->
+    <div class="palette" role="group" aria-label="Colour palette">
+        <button type="button" data-set-palette="black" aria-pressed="true">black</button>
+        <button type="button" data-set-palette="blue" aria-pressed="false">blue</button>
+    </div>
+</header>
+
+<main class="shell" id="top">
+
+    <section class="hero">
+        <!-- The name is a poster block: two lines between two heavy rules.
+             Keep the <br> — the break is set by hand, not by the measure. -->
+        <h1>Anis<br>Senoussi</h1>
+        <div class="hero-below">
+            <p class="standfirst">I am a postdoctoral researcher working out how <span class="turn">cell fates</span> are specified, and how molecules and tissues <span class="turn">organize</span> themselves.</p>
+            <div class="hero-meta">
+                <span><span class="k">Position</span>MSCA postdoctoral fellow</span>
+                <span><span class="k">Lab</span><a class="u" target="_blank" rel="noopener noreferrer" href="https://junkerlab.com/">Junker Lab</a></span>
+                <span><span class="k">Institute</span><a class="u" target="_blank" rel="noopener noreferrer" href="https://www.mdc-berlin.de/">Max Delbrück Center</a></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="room" id="research">
+        <div class="room-head rise">
+            <span class="room-no">01</span>
+            <h2>Research</h2>
+        </div>
+
+        <p class="room-intro rise">
+            I study how living systems build themselves through cell fate decisions and self-organization, from
+            reconstituted <em>molecular systems</em> up to whole <em>embryos and tissues</em>. I build quantitative and
+            predictive models of those processes in development and disease, using high-dimensional data analysis,
+            physics and molecular engineering.
+        </p>
+
+        <div class="panels rise">
+
+            <article class="panel" data-theme-key="fate" tabindex="0" role="button" aria-pressed="false">
+                <h3>Cell fate decisions in development</h3>
+                <p>How a single cell gives rise to the full diversity of an organism remains a central question in
+                   biology. Cell fate is specified as cells integrate their internal state with signals from neighboring
+                   cells and their physical environment. I track this process in the zebrafish embryo, focusing on
+                   <em>three interconnected layers of control</em>: <b>transcriptional regulation</b>, <b>the mRNA
+                   post-transcriptional landscape</b>, and <b>mechanosensing &amp; signal transduction</b>.</p>
+                <div class="panel-links"><span class="lk">Linked works</span></div>
+            </article>
+
+            <article class="panel" data-theme-key="spacetime" tabindex="0" role="button" aria-pressed="false">
+                <h3>Measuring and modeling cells in space and time</h3>
+                <p>Fate decisions play out across space and time, yet standard measurements usually force a trade-off
+                   between them. I develop and apply multimodal approaches that preserve both, in embryos, tissues, and
+                   cancer. Three ingredients add a <em>spatial and temporal axis to sequencing</em>: <b>metabolic
+                   labeling of new transcripts</b>, <b>spatial-lineage tracing</b>, and <b>multimodal 3D+time
+                   integration</b>.</p>
+                <p>Measured densely enough, these complex dynamics can be modeled quantitatively.</p>
+                <div class="panel-links"><span class="lk">Linked works</span></div>
+            </article>
+
+            <article class="panel" data-theme-key="selforg" tabindex="0" role="button" aria-pressed="false">
+                <h3>Self-organization of biological matter</h3>
+                <p>Living matter organizes itself across scales. To understand how this works, I build <em>reconstituted
+                   systems held far from equilibrium</em>, in which striking patterns, flows, and physical forms emerge
+                   spontaneously from a handful of simple molecular rules: <b>reaction&ndash;diffusion patterning</b>
+                   and <b>active matter</b>.</p>
+                <p>Chemistry and mechanics constantly feed back on one another, deforming, wrinkling, and sculpting the
+                   material. Because every component in these systems is defined, they can be modeled with mathematical
+                   precision and offer direct insight into how tissues pattern themselves in vivo.</p>
+                <div class="panel-links"><span class="lk">Linked works</span></div>
+            </article>
+
+            <article class="panel" data-theme-key="synbio" tabindex="0" role="button" aria-pressed="false">
+                <h3>Synthetic biology &amp; molecular programming</h3>
+                <p>Synthetic and engineering-based approaches allow us to deconstruct, modify, and repurpose biological
+                   processes. I design custom <em>molecular programs</em> such as riboregulators, synthetic gene
+                   circuits, and enzymatic DNA reaction networks, which serve two ends:</p>
+                <ul class="layers">
+                    <li><b>As models</b>: minimal, fully controllable versions of tissue patterning, used to test which
+                        ingredients are actually necessary.</li>
+                    <li><b>As tools</b>: functional instruments in their own right, such as molecular barcodes for
+                        single-cell identification.</li>
+                </ul>
+                <p>My current work expands into protein engineering, developing molecular architectures designed to
+                   record histories and to rewire signaling pathways.</p>
+                <div class="panel-links"><span class="lk">Linked works</span></div>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="room" id="publications">
+        <div class="room-head rise">
+            <span class="room-no">02</span>
+            <h2>Publications</h2>
+        </div>
+
+        <div class="filterbar" id="filterbar"><span class="note" id="filternote"></span></div>
+
+        <div class="works" id="works">
+
+            <article class="work" id="pub-natcomm-2026" data-themes="spacetime">
+                <div class="yr">2026</div>
+                <div>
+                    <span class="who">Mintcheva J, Tseng T-L, Goumenaki P, Neuschulz A, <b>Senoussi A</b>, Lelek S, Lim KL, Ming Z, Schäfer R, Hnatiuk A, Ninov N, Beisaw A, McGrail M, Lai S-L, Panáková D, Stainier DYR &amp; Junker JP</span>
+                    <p class="ttl">In vivo single-cell RNA metabolic labeling resolves early transcriptional responders in the regenerating zebrafish heart. <span class="venue">Nature Communications</span></p>
+                    <div class="work-foot">
+                        <div class="links">
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.nature.com/articles/s41467-026-72781-2">article</a>
+                        </div>
+                        <div class="tags"></div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="work" id="pub-neuroblastoma-2025" data-themes="spacetime">
+                <div class="yr">2025<span class="badge">Preprint</span></div>
+                <div>
+                    <span class="who">Fresmann N, Köppke J, Gauert A, <b>Senoussi A</b>, Brame L, Olivares-Chauvet P, Grammatikaki A, Schott M, Höfer L, Jens M, Beule D, Henssen AG, Rajewsky N, Spanjaard B, Hagemann AIH &amp; Junker JP</span>
+                    <p class="ttl">Lineage origin and developmental context shape tumor states in MYCN-dependent zebrafish neuroblastoma. <span class="venue">bioRxiv</span></p>
+                    <div class="work-foot">
+                        <div class="links">
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.biorxiv.org/content/10.1101/2025.10.13.682025v2">bioRxiv</a>
+                        </div>
+                        <div class="tags"></div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="work" id="pat-barcoding-2025" data-themes="spacetime synbio">
+                <div class="yr">2025<span class="badge">Patent</span></div>
+                <div>
+                    <span class="who">Ellouze S, Rondelez Y, <b>Senoussi A</b>, Gines G, Griffiths A, Ibanez P, Blivet-Bailly G, Lassus B, Cavalié L, Jin S &amp; Mary P</span>
+                    <p class="ttl">Methods and compositions for barcoding nucleic acids. <span class="venue">WO 2025/233344 A1</span></p>
+                    <div class="work-foot">
+                        <div class="links">
+                            <a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/WO2025233344A1/en">patent</a>
+                        </div>
+                        <div class="tags"></div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="work" id="pub-sciadv-2021" data-themes="selforg synbio">
+                <div class="yr">2021</div>
+                <div>
+                    <span class="who"><b>Senoussi A</b>, Galas J-C &amp; Estevez-Torres A</span>
+                    <p class="ttl">Programmed mechano-chemical coupling in reaction–diffusion active matter. <span class="venue">Science Advances</span></p>
+                    <div class="work-foot">
+                        <div class="links">
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.science.org/doi/10.1126/sciadv.abi9865">article</a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.biorxiv.org/content/10.1101/2021.03.13.435232v2">bioRxiv</a>
+                        </div>
+                        <div class="tags"></div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="work" id="pub-chapter-2021" data-themes="selforg synbio">
+                <div class="yr">2021<span class="badge">Chapter</span></div>
+                <div>
+                    <span class="who"><b>Senoussi A</b>, Vyborna Y, Berthoumieux H, Galas J-C &amp; Estevez-Torres A</span>
+                    <p class="ttl">Learning from embryo development to engineer self-organizing materials. <span class="venue">In: Out-of-Equilibrium Supramolecular Systems and Materials (eds. Giuseppone N &amp; Walther A)</span></p>
+                    <div class="work-foot">
+                        <div class="links">
+                            <a target="_blank" rel="noopener noreferrer" href="https://onlinelibrary.wiley.com/doi/abs/10.1002/9783527821990.ch2">chapter</a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://hal.archives-ouvertes.fr/hal-03361052/">HAL</a>
+                        </div>
+                        <div class="tags"></div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="work" id="pub-thesis-2020" data-themes="selforg synbio">
+                <div class="yr">2020<span class="badge">Thesis</span></div>
+                <div>
+                    <span class="who"><b>Senoussi A</b></span>
+                    <p class="ttl">Design of molecular systems for artificial pattern formation and gene regulation. <span class="venue">PhD thesis, Sorbonne Université</span></p>
+                    <div class="work-foot">
+                        <div class="links">
+                            <a target="_blank" rel="noopener noreferrer" href="https://tel.archives-ouvertes.fr/tel-02963319v2/document">pdf</a>
+                        </div>
+                        <div class="tags"></div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="work" id="pub-pnas-2019" data-themes="selforg">
+                <div class="yr">2019</div>
+                <div>
+                    <span class="who"><b>Senoussi A</b>, Kashida S, Voituriez R, Galas J-C, Maitra A &amp; Estevez-Torres A</span>
+                    <p class="ttl">Tunable corrugated patterns in an active nematic sheet. <span class="venue">Proceedings of the National Academy of Sciences</span></p>
+                    <div class="work-foot">
+                        <div class="links">
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.pnas.org/content/116/45/22464">article</a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/1904.09249">arXiv</a>
+                        </div>
+                        <div class="tags"></div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="work" id="pub-acssynbio-2018" data-themes="synbio">
+                <div class="yr">2018</div>
+                <div>
+                    <span class="who"><b>Senoussi A</b>, Lee Tin Wah J, Shimizu Y, Robert J, Jaramillo A, Findeiß S, Axmann IM &amp; Estevez-Torres A</span>
+                    <p class="ttl">Quantitative characterization of translational riboregulators using an in vitro transcription–translation system. <span class="venue">ACS Synthetic Biology</span></p>
+                    <div class="work-foot">
+                        <div class="links">
+                            <a target="_blank" rel="noopener noreferrer" href="https://pubs.acs.org/doi/10.1021/acssynbio.7b00387">article</a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.biorxiv.org/content/10.1101/290403v1">bioRxiv</a>
+                        </div>
+                        <div class="tags"></div>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+
+        <p class="more">Full and up-to-date list on <a class="u" target="_blank" rel="noopener noreferrer" href="https://scholar.google.com/citations?user=b2aa4SEAAAAJ&amp;hl=en">Google Scholar</a>.</p>
+    </section>
+
+    <section class="room" id="bio">
+        <div class="room-head rise">
+            <span class="room-no">03</span>
+            <h2>Short bio</h2>
+        </div>
+        <div class="rows rise">
+            <div class="row"><div class="when">Since 2022</div><div class="what">Postdoc, <a class="u" target="_blank" rel="noopener noreferrer" href="https://www.mdc-berlin.de/">Max Delbrück Center for Molecular Medicine</a></div><div class="where"><span class="city">Berlin</span>, Germany</div></div>
+            <div class="row"><div class="when">2021 – 2022</div><div class="what">Postdoc, <a class="u" target="_blank" rel="noopener noreferrer" href="https://www.lbc.espci.fr/home/">LBC</a> &amp; <a class="u" target="_blank" rel="noopener noreferrer" href="https://www.gulliver.espci.fr/?-home-">Gulliver</a>, <a class="u" target="_blank" rel="noopener noreferrer" href="https://www.espci.psl.eu/en/">ESPCI</a></div><div class="where"><span class="city">Paris</span>, France</div></div>
+            <div class="row"><div class="when">2020 – 2021</div><div class="what">Postdoc, <a class="u" target="_blank" rel="noopener noreferrer" href="https://www.labojeanperrin.fr/?lang=en">Lab Jean Perrin</a>, <a class="u" target="_blank" rel="noopener noreferrer" href="https://www.ibps.sorbonne-universite.fr/en">IBPS</a>, <a class="u" target="_blank" rel="noopener noreferrer" href="https://www.sorbonne-universite.fr/">Sorbonne Université</a></div><div class="where"><span class="city">Paris</span>, France</div></div>
+            <div class="row"><div class="when">2016 – 2020</div><div class="what">PhD in physics, <a class="u" target="_blank" rel="noopener noreferrer" href="https://www.labojeanperrin.fr/?lang=en">Lab Jean Perrin</a>, <a class="u" target="_blank" rel="noopener noreferrer" href="https://www.ibps.sorbonne-universite.fr/en">IBPS</a>, <a class="u" target="_blank" rel="noopener noreferrer" href="https://www.sorbonne-universite.fr/">Sorbonne Université</a></div><div class="where"><span class="city">Paris</span>, France</div></div>
+            <div class="row"><div class="when">2015 – 2016</div><div class="what">Master in biological physics, <a class="u" target="_blank" rel="noopener noreferrer" href="https://u-paris.fr/">Université de Paris</a></div><div class="where"><span class="city">Paris</span>, France</div></div>
+            <div class="row"><div class="when">2015</div><div class="what"><i>Agrégation</i> of physical sciences, <a class="u" target="_blank" rel="noopener noreferrer" href="https://www.ens-lyon.fr/">ENS de Lyon</a></div><div class="where"><span class="city">Lyon</span>, France</div></div>
+            <div class="row"><div class="when">2012 – 2016</div><div class="what">Bachelor &amp; Master in physics &amp; chemistry, <a class="u" target="_blank" rel="noopener noreferrer" href="https://www.ens-lyon.fr/">ENS de Lyon</a> &amp; <a class="u" target="_blank" rel="noopener noreferrer" href="https://www.univ-lyon1.fr/">UCBL</a></div><div class="where"><span class="city">Lyon</span>, France</div></div>
+            <div class="row"><div class="when">2009 – 2012</div><div class="what"><i>Classes préparatoires</i> in physics, mathematics &amp; chemistry, Lycée Thiers</div><div class="where"><span class="city">Marseille</span>, France</div></div>
+        </div>
+    </section>
+
+    <section class="room" id="funding">
+        <div class="room-head rise">
+            <span class="room-no">04</span>
+            <h2>Funding &amp; awards</h2>
+        </div>
+        <div class="rows rise">
+            <div class="row"><div class="when">2024 – 2026</div><div class="what">MSCA Postdoctoral Fellowship, <i><a class="u" target="_blank" rel="noopener noreferrer" href="https://cordis.europa.eu/project/id/101106181">sc-LAB2FATE</a></i></div><div class="where"><a class="u" target="_blank" rel="noopener noreferrer" href="https://marie-sklodowska-curie-actions.ec.europa.eu/">European Commission</a></div></div>
+            <div class="row"><div class="when">2024 – 2026</div><div class="what">Research grant <i>ZebraTwin</i>, contributor (PIs Junker JP &amp; Schug A)</div><div class="where"><a class="u" target="_blank" rel="noopener noreferrer" href="https://www.helmholtz.ai/">Helmholtz AI</a></div></div>
+            <div class="row"><div class="when">2023 – 2024</div><div class="what">EMBO Postdoctoral Fellowship</div><div class="where"><a class="u" target="_blank" rel="noopener noreferrer" href="https://www.embo.org/">EMBO</a></div></div>
+            <div class="row"><div class="when">2021</div><div class="what">Nine Choucroun PhD thesis award</div><div class="where">Edmond de Rothschild Foundation</div></div>
+            <div class="row"><div class="when">2016 – 2019</div><div class="what">Teaching assistant fellowship</div><div class="where"><a class="u" target="_blank" rel="noopener noreferrer" href="https://www.sorbonne-universite.fr/">Sorbonne Université</a></div></div>
+            <div class="row"><div class="when">2016 – 2019</div><div class="what">Three-year full PhD scholarship</div><div class="where"><a class="u" target="_blank" rel="noopener noreferrer" href="https://www.sorbonne-universite.fr/">Sorbonne Université</a></div></div>
+            <div class="row"><div class="when">2012 – 2016</div><div class="what">Stipendiary studentship (civil servant status)</div><div class="where"><a class="u" target="_blank" rel="noopener noreferrer" href="https://www.ens-lyon.fr/">ENS de Lyon</a></div></div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="foot" id="contact">
+    <div class="foot-inner">
+        <p class="big"><a href="mailto:anis.senoussi@mdc-berlin.de">anis.senoussi@mdc-berlin.de</a></p>
+        <div class="foot-cols">
+            <div>
+                
+                <p>MDC Berlin, BIMSB<br>Hannoversche Straße 28<br>10115 Berlin, Germany</p>
+            </div>
+            <div>
+                <h4>Elsewhere</h4>
+                <p class="socials">
+                    <a target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" href="https://www.linkedin.com/in/anissenoussi/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037c-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85c3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.06 2.06 0 0 1-2.063-2.065a2.064 2.064 0 1 1 2.063 2.065m1.782 13.019H3.555V9h3.564zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0z"/></svg></a>
+                    <a target="_blank" rel="noopener noreferrer" aria-label="Bluesky" href="https://bsky.app/profile/dr-anis.bsky.social"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5.202 2.857C7.954 4.922 10.913 9.11 12 11.358c1.087-2.247 4.046-6.436 6.798-8.501C20.783 1.366 24 .213 24 3.883c0 .732-.42 6.156-.667 7.037-.856 3.061-3.978 3.842-6.755 3.37 4.854.826 6.089 3.562 3.422 6.299-5.065 5.196-7.28-1.304-7.847-2.97-.104-.305-.152-.448-.153-.327 0-.121-.05.022-.153.327-.568 1.666-2.782 8.166-7.847 2.97-2.667-2.737-1.432-5.473 3.422-6.3-2.777.473-5.899-.308-6.755-3.369C.42 10.04 0 4.615 0 3.883c0-3.67 3.217-2.517 5.202-1.026"/></svg></a>
+                    <a target="_blank" rel="noopener noreferrer" aria-label="ORCID" href="https://orcid.org/0000-0002-7066-8917"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-2.016-1.284-3.722-4.097-3.722h-2.222z"/></svg></a>
+                    <a target="_blank" rel="noopener noreferrer" aria-label="Google Scholar" href="https://scholar.google.com/citations?user=b2aa4SEAAAAJ&amp;hl=en"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg></a>
+                </p>
+            </div>
+        </div>
+        <div class="stamp">
+            <span></span>
+            <span>Last update: August 2026</span>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function () {
+    "use strict";
+
+    /* Mirror the news list so the marquee loops without a gap. */
+    var news = document.querySelectorAll(".ticker .news");
+    if (news.length === 2) news[1].innerHTML = news[0].innerHTML;
+
+    var THEMES = { fate: "Cell fate", spacetime: "Space-time omics", selforg: "Self-organization", synbio: "Synthetic biology" };
+
+    var works  = Array.prototype.slice.call(document.querySelectorAll(".work"));
+    var panels = Array.prototype.slice.call(document.querySelectorAll(".panel"));
+    var note   = document.getElementById("filternote");
+    var bar    = document.getElementById("filterbar");
+    var active = null;
+
+    function shortLabel(work) {
+        var yr = work.querySelector(".yr");
+        var y = yr ? yr.firstChild.nodeValue.trim() : "";
+        var v = work.querySelector(".venue");
+        var venue = v ? v.textContent.trim().replace(/^In: /, "").split(/[,(]/)[0].trim() : "";
+        var map = {
+            "Nature Communications": "Nat. Commun.",
+            "Science Advances": "Sci. Adv.",
+            "Proceedings of the National Academy of Sciences": "PNAS",
+            "ACS Synthetic Biology": "ACS Synth. Biol.",
+            "Out-of-Equilibrium Supramolecular Systems and Materials": "Book chapter",
+            "WO 2025/233344 A1": "Patent"
+        };
+        return y + " \u00b7 " + (map[venue] || venue);
+    }
+
+    works.forEach(function (work) {
+        var keys = (work.dataset.themes || "").split(/\s+/).filter(Boolean);
+        if (keys[0]) work.style.setProperty("--c", "var(--c-" + keys[0] + ")");
+
+        var holder = work.querySelector(".tags");
+        keys.forEach(function (key) {
+            if (!THEMES[key]) return;
+
+            var tag = document.createElement("button");
+            tag.type = "button";
+            tag.className = "tag";
+            tag.dataset.theme = key;
+            tag.textContent = THEMES[key];
+            tag.addEventListener("click", function () { setFilter(active === key ? null : key); });
+            if (holder) holder.appendChild(tag);
+
+            var slot = document.querySelector('.panel[data-theme-key="' + key + '"] .panel-links');
+            if (slot) {
+                var chip = document.createElement("a");
+                chip.className = "chip";
+                chip.href = "#" + work.id;
+                chip.textContent = shortLabel(work);
+                chip.addEventListener("click", function (ev) { ev.stopPropagation(); setFilter(null); });
+                slot.appendChild(chip);
+            }
+        });
+    });
+
+    /* A theme with nothing tagged to it must not act as a filter: clicking it
+       would dim the whole list and report zero works. Leave it as plain text
+       until a work carries its key. */
+    panels.forEach(function (panel) {
+        if (panel.querySelector(".chip")) return;
+        panel.classList.add("is-static");
+        panel.removeAttribute("tabindex");
+        panel.removeAttribute("role");
+        panel.removeAttribute("aria-pressed");
+        var lk = panel.querySelector(".lk");
+        if (lk) lk.remove();
+    });
+
+    function setFilter(key) {
+        active = key;
+
+        panels.forEach(function (p) {
+            var on = p.dataset.themeKey === key;
+            p.classList.toggle("is-active", on);
+            p.setAttribute("aria-pressed", on ? "true" : "false");
+        });
+
+        works.forEach(function (w) {
+            var match = !key || (" " + (w.dataset.themes || "") + " ").indexOf(" " + key + " ") !== -1;
+            w.classList.toggle("is-dim", !match);
+        });
+
+        var old = bar.querySelector(".clear");
+        if (old) old.remove();
+        bar.classList.toggle("is-on", !!key);
+
+        if (!key) { note.textContent = ""; return; }
+
+        var n = works.filter(function (w) {
+            return (" " + (w.dataset.themes || "") + " ").indexOf(" " + key + " ") !== -1;
+        }).length;
+        note.textContent = n + " work" + (n === 1 ? "" : "s") + " in \u201c" + THEMES[key] + "\u201d";
+
+        var btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "clear";
+        btn.textContent = "Show all";
+        btn.addEventListener("click", function () { setFilter(null); });
+        bar.appendChild(btn);
+    }
+
+    panels.forEach(function (panel) {
+        if (panel.classList.contains("is-static")) return;
+        var key = panel.dataset.themeKey;
+        function toggle() {
+            setFilter(active === key ? null : key);
+            if (active) document.getElementById("publications").scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+        panel.addEventListener("click", toggle);
+        panel.addEventListener("keydown", function (ev) {
+            if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); toggle(); }
+        });
+    });
+
+    var targets = document.querySelectorAll(".rise");
+    if (!("IntersectionObserver" in window) || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        Array.prototype.forEach.call(targets, function (t) { t.classList.add("in"); });
+    } else {
+        var io = new IntersectionObserver(function (es) {
+            es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } });
+        }, { rootMargin: "0px 0px -6% 0px", threshold: 0.04 });
+        Array.prototype.forEach.call(targets, function (t) { io.observe(t); });
+    }
+})();
+</script>
+
+<script>
+/* Palette switch. The head script has already applied any remembered choice;
+   this only wires the two buttons and keeps their pressed state honest. */
+(function () {
+    "use strict";
+    var root = document.documentElement;
+    var buttons = document.querySelectorAll("[data-set-palette]");
+    function apply(name) {
+        /* "black" is the default, so it REMOVES the attribute rather than
+           setting one — the default ground is whatever :root says, in one
+           place, and the two cannot disagree. */
+        if (name === "blue") { root.setAttribute("data-palette", "blue"); }
+        else { root.removeAttribute("data-palette"); }
+        Array.prototype.forEach.call(buttons, function (b) {
+            b.setAttribute("aria-pressed", String(b.dataset.setPalette === name));
+        });
+        try { localStorage.setItem("palette", name); } catch (e) { /* nothing to do */ }
+    }
+    Array.prototype.forEach.call(buttons, function (b) {
+        b.addEventListener("click", function () { apply(b.dataset.setPalette); });
+    });
+    apply(root.getAttribute("data-palette") === "blue" ? "blue" : "black");
+})();
+</script>
+
+</body>
+</html>
